@@ -28,6 +28,8 @@ return {
     order_by = "sortr",
     -- 避免 https://github.com/epwalsh/obsidian.nvim/issues/163 的报错
     mappings = {},
+    -- 关闭 frontmatter, 因为我不用
+    disable_frontmatter = true,
     -- see below for full list of options 👇
   },
 }
