@@ -1,6 +1,27 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "master",
+  commit = "33eb472b459f1d2bf49e16154726743ab3ca1c6d",
   opts = {
-    ensure_installed = "all",
+    -- ensure_installed = "all",
+    ensure_installed = {
+      "dart",
+      "go",
+      "html",
+      "javascript",
+      "lua",
+      "python",
+      "tsx",
+      "typescript",
+      "markdown",
+      "json",
+      "yaml",
+      "toml",
+      "bash",
+      "css",
+      "scss",
+      "vim",
+      "yaml",
+    },
   },
 }
