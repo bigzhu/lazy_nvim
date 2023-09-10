@@ -30,6 +30,10 @@ return {
     mappings = {},
     -- 关闭 frontmatter, 因为我不用
     disable_frontmatter = true,
-    -- see below for full list of options 👇
+
+    daily_notes = {
+      -- Optional, if you want to change the date format for daily notes.
+      date_format = "%Y-%m-%d",
+    },
   },
 }
