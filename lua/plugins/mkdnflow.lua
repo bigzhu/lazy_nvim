@@ -1,16 +1,20 @@
 return {
   {
     "jakewvincent/mkdnflow.nvim",
+    -- dir = "~/git/mkdnflow.nvim",
     rocks = "luautf8", -- Ensures optional luautf8 dependency is installed
     config = function()
       require("mkdnflow").setup({
         links = {
-          style = "markdown",
+          -- style = "markdown",
           name_is_source = true,
-          conceal = true,
-          context = 0,
-          transform_implicit = false,
-          transform_explicit = false,
+          conceal = true, -- 隐藏链接
+          context = 1,
+          implicit_extension = "md",
+          -- transform_implicit = false,
+          transform_explicit = function(input)
+            return input
+          end,
         },
         mappings = {
           MkdnFoldSection = { "n", "<leader>q" },
