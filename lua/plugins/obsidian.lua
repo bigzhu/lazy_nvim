@@ -1,6 +1,6 @@
 return {
-  -- "epwalsh/obsidian.nvim",
-  dir = "~/obsidian.nvim",
+  "epwalsh/obsidian.nvim",
+  -- dir = "~/obsidian.nvim",
   lazy = false,
   keys = {
     { "<C-g>", "<cmd>ObsidianToday<CR>", desc = "Cheese create a new daily note", mode = { "n" } },
@@ -25,7 +25,7 @@ return {
   opts = {
     dir = "~/cheese", -- no need to call 'vim.fn.expand' here
     sort_by = "modified",
-    order_by = "sortr",
+    sort_reversed = true,
     -- 避免 https://github.com/epwalsh/obsidian.nvim/issues/163 的报错
     mappings = {},
     -- 关闭 frontmatter, 因为我不用
