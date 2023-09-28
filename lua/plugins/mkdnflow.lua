@@ -2,7 +2,8 @@ return {
   {
     "jakewvincent/mkdnflow.nvim",
     -- dir = "~/git/mkdnflow.nvim",
-    rocks = "luautf8", -- Ensures optional luautf8 dependency is installed
+    -- rocks = "luautf8", -- Ensures optional luautf8 dependency is installed
+    -- luarocks install luautf8
     config = function()
       require("mkdnflow").setup({
         links = {
