@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<C-f>", "<cmd>ObsidianQuickSwitch<CR>")
 vim.keymap.set("n", "<C-j>", "<cmd>ObsidianSearch<CR>")
+-- 进入 cheese 的 todo 页面
+vim.keymap.set("n", "<leader>td", "<cmd>TodoTrouble cwd=~/cheese/<CR>")
