@@ -23,6 +23,7 @@ return {
     -- see below for full list of optional dependencies 👇
   },
   opts = {
+    log_level = vim.log.levels.ERROR,
     dir = "~/cheese", -- no need to call 'vim.fn.expand' here
     sort_by = "modified",
     sort_reversed = true,
