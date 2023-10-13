@@ -33,16 +33,8 @@ treesitter
 https
 lua
 todo
+<<<<<<< HEAD
+VPS
+=======
 ctrl
-VPS
-CNAME
-bigzhu
-paypal
-v2ray
-trojan
-ss
-QUIC
-VPS
-Nginx
-root
-Shadowrocket
+>>>>>>> e509db981e69f7b875752e2aeb7d664eeba431f3
