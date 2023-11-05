@@ -24,7 +24,7 @@ return {
   },
   opts = {
     log_level = vim.log.levels.ERROR,
-    dir = "~/cheese", -- no need to call 'vim.fn.expand' here
+    dir = "~/Sync/home/cheese", -- no need to call 'vim.fn.expand' here
     sort_by = "modified",
     sort_reversed = true,
     -- 避免 https://github.com/epwalsh/obsidian.nvim/issues/163 的报错
