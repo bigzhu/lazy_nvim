@@ -1,5 +1,6 @@
 return {
   "epwalsh/obsidian.nvim",
+  version = "*", -- recommended, use latest release instead of latest commit
   -- dir = "~/obsidian.nvim",
   lazy = false,
   keys = {
@@ -29,7 +30,7 @@ return {
     sort_reversed = true,
     -- 避免 https://github.com/epwalsh/obsidian.nvim/issues/163 的报错
     mappings = {},
-    -- 关闭 frontmatter, 因为我不用
+    -- 关闭 frontmatter
     disable_frontmatter = false,
     -- Optional, alternatively you can customize the frontmatter data.
     note_frontmatter_func = function(note)
