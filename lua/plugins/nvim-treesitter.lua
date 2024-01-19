@@ -9,7 +9,8 @@ return {
     ensure_installed = {
       "query",
       "graphql",
-      "dart",
+      -- 整体还是慢, 所以还是先不使用 dart 的 TS 了
+      -- "dart",
       "go",
       "html",
       "javascript",
