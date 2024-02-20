@@ -6,3 +6,5 @@ vim.keymap.set("n", "<C-j>", "<cmd>ObsidianSearch<CR>", { desc = "Search cheese 
 vim.keymap.set("n", "<C-g>", "<cmd>ObsidianToday<CR>", { desc = "Cheese create a new daily note" })
 -- 进入 cheese 的 todo 页面
 vim.keymap.set("n", "<leader>td", "<cmd>TodoTelescope cwd=~/Sync/home/cheese/<CR>", { desc = "Enter cheese todo" })
+
+vim.keymap.set("n", "<leader>r", ":RunCode<CR>", { desc = "Run current code" })
