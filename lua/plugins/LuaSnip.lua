@@ -8,7 +8,11 @@ return {
     config = function()
       -- load snippets paths
       require("luasnip.loaders.from_vscode").lazy_load({
-        paths = { "./snippets/flutter-riverpod-snippets", "./snippets/awesome-flutter-snippets" },
+        paths = {
+          "./snippets/vscode-python",
+          "./snippets/flutter-riverpod-snippets",
+          "./snippets/awesome-flutter-snippets",
+        },
       })
     end,
   },
