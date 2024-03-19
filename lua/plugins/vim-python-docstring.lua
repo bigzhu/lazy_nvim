@@ -4,7 +4,7 @@ return {
     lazy = true,
     config = true,
     keys = {
-      { "<leader>d", "<cmd>Docstring<CR>", desc = "Add docstring", mode = { "n" } },
+      { "<leader>td", "<cmd>Docstring<CR>", desc = "Add Python docstring", mode = { "n" } },
     },
   },
 }
