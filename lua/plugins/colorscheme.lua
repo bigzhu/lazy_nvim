@@ -1,6 +1,7 @@
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+  { "sainnhe/gruvbox-material" },
 
   -- Configure LazyVim to load gruvbox
   {
