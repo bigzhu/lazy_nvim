@@ -103,3 +103,5 @@ localhost
 sudo
 yaml
 auth
+testdoc
+doctest
